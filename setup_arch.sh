@@ -30,7 +30,7 @@ echo -e "[chaotic-aur]\nInclude = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -
 
 # Install desired packages
 echo -e "\e[1;34mInstalling packages... \e[0m"
-sudo pacman -S telegram-desktop cmatrix firefox smplayer ntfs-3g less fastfetch git vlc libreoffice-still ffmpegthumbs gwenview blanket bleachbit elisa thunar gnome-boxes sysprof persepolis timeshift intel-media-sdk intel-compute-runtime jellyfin-ffmpeg jellyfin-server jellyfin-web starship code go anydesk brave peazip renamemytvseries networkmanager vazirmatn-fonts rustdesk extension-manager gnome-themes-extra catfish drawing penguins-eggs kdeconnect
+sudo pacman -S telegram-desktop cmatrix firefox smplayer ntfs-3g less fastfetch git vlc libreoffice-still ffmpegthumbs gwenview blanket bleachbit elisa thunar gnome-boxes sysprof persepolis timeshift intel-media-sdk intel-compute-runtime jellyfin-ffmpeg jellyfin-server jellyfin-web starship code go anydesk brave peazip renamemytvseries networkmanager vazirmatn-fonts rustdesk extension-manager gnome-themes-extra catfish drawing penguins-eggs kdeconnect trash-cli
 
 # Enable and start serviceskdeconnect
 echo -e "\e[1;34mEnabling and starting NetworkManager.service... \e[0m"
